@@ -18,7 +18,7 @@ if(!serviceRegex.test(serviceName)) {
   process.exit(1);
 }
 
-let startCommand: string = `${process.argv0} start`;
+let startCommand: string = `${process.argv0} .`;
 
 startCommand = input(`Enter start command ${chalk.grey(`(${startCommand})`)}: `, {
   value: startCommand
