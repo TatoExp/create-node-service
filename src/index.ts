@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import prompt from "prompt-sync";
 import chalk from "chalk";
 import path from "path";
