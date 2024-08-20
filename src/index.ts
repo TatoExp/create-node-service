@@ -68,3 +68,5 @@ console.log(chalk.grey(`To enable the service, run the following command:`));
 console.log(chalk.whiteBright(`sudo systemctl enable ${serviceName}\n`));
 console.log(chalk.grey(`To start the service, run the following command:`));
 console.log(chalk.whiteBright(`sudo systemctl start ${serviceName}\n`));
+console.log(chalk.grey(`To tail logs run the following command:`));
+console.log(chalk.whiteBright(`sudo journalctl -fu ${serviceName}\n`));
